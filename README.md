@@ -94,10 +94,10 @@ A `Rectangle` is a `Shape`, and a `Square` is a `Rectangle`.
 
 Define a Shape class with the following:
 - `num_sides`: set during instantiation, read-only.
-- `side1_length`: set during instantiation, readable and writable.
-- `side2_length`: set during instantiation, readable and writable.
+- `length`: set during instantiation, readable and writable.
+- `width`: set during instantiation, readable and writable.
 - `color`: NOT set during instantiation, readable and writable.
-- `Shape.new(num_sides, side1_length, side2_length)` should create a shape.
+- `Shape.new(num_sides, length, width)` should create a shape.
 - `calculate_area` method which calculates area of a rectangle or square class.
 
 #### Creating a Rectangle Class
