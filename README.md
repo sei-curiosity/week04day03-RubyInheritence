@@ -102,7 +102,7 @@ Define a Shape class with the following:
 
 #### Creating a Rectangle Class
 
-- Rectangles should be instantiated with `Rectangle.new(4, 2, 3)` to create a rectangle with a length of 3 and a width of 2.
+- Rectangles should be instantiated with `Rectangle.new(2, 3)` to create a rectangle with a length of 3 and a width of 2.
 - Instances of Rectangle should respond to the `#calculate_area` method and give the correct result.
 
 #### Creating a Square Class
