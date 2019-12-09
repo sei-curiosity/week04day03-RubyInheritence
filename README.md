@@ -97,12 +97,12 @@ Define a Shape class with the following:
 - `side1_length`: set during instantiation, readable and writable.
 - `side2_length`: set during instantiation, readable and writable.
 - `color`: NOT set during instantiation, readable and writable.
-- `Shape.new(num_sides, side_length)` should create a shape.
+- `Shape.new(num_sides, side1_length, side2_length)` should create a shape.
 - `calculate_area` method which calculates area of a rectangle or square class.
 
 #### Creating a Rectangle Class
 
-- Rectangles should be instantiated with `Rectangle.new(3, 4)` to create a rectangle with a length of 3 and a width of 4.
+- Rectangles should be instantiated with `Rectangle.new(4, 2, 3)` to create a rectangle with a length of 3 and a width of 2.
 - Instances of Rectangle should respond to the `#calculate_area` method and give the correct result.
 
 #### Creating a Square Class
