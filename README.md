@@ -111,10 +111,7 @@ Define a Shape class with the following:
 - `side_length`: set during instantiation, readable and writable.
 - `color`: NOT set during instantiation, readable and writable.
 - `Shape.new(num_sides, side_length)` should create a shape.
-- `calculate_area` methodwhich calculates the area of a 'regular' shape (all sides equal) for the given side length. The mathematical formula for this is:
-```
-area = num_sides * length * length / (4 * Math.tan(3.1416/num_sides)) 
-```
+- `calculate_area` method which calculates area of a rectangle or square class.
 
 #### Creating a Rectangle Class
 
