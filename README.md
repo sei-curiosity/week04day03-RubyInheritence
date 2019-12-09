@@ -113,7 +113,7 @@ Define a Shape class with the following:
 - `Shape.new(num_sides, side_length)` should create a shape.
 - `calculate_area` methodwhich calculates the area of a 'regular' shape (all sides equal) for the given side length. The mathematical formula for this is:
 ```
-area = num_sides * length * length / (4 * tangent(PI/num_sides))
+area = num_sides * length * length / (4 * Math.tan(3.1416/num_sides)) 
 ```
 
 #### Creating a Rectangle Class
