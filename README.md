@@ -23,24 +23,24 @@ class Animal
 end
 
 class Dog < Animal
-  def speak
+  def bark
     puts "woof"
   end
 end
 
 class Cat < Animal
-  def speak
+  def purr
     puts "meow"
   end
 end
 
 dog = Dog.new
 dog.eat # "Nom nom nom"
-dog.speak # "woof"
+dog.bark # "woof"
 
 cat = Cat.new
 cat.eat # "Nom nom nom"
-cat.speak # "meow"
+cat.purr # "meow"
 ```
 
 ### Lab: Inheritance
@@ -85,20 +85,6 @@ fish.move
 - Rename your `fly` method in your `SpaceShip` to `move` and use `super` so that it prints `Here we go Up up and away!`.
 - Rename your `drive` method in your `Car` to `move` and use `super` so that it prints `Here we go Vroom!`.
 
-### Lab: Drawing the Method Lookup Chain in Ruby
-
-Please diagram the method lookup chain using the following requirements:
-
-- Create a class `TVShow` that has an instance method called `roll_credits`.
-- Create a class `FamilyFeud` that inherits from the class `TVShow` and has an instance method called `fast_money`.
-- Diagram creating a new instance of the `FamilyFeud`
-- Diagram how Ruby finds and executes the methods called on  `FamilyFeud`
-
-```rb
-steve_harvey_family_feud = FamilyFeud.new
-steve_harvey_family_feud.fast_money
-steve_harvey_family_feud.roll_credits
-```
 
 ### Lab: Model Shapes Using Classes
 
@@ -108,7 +94,8 @@ A `Rectangle` is a `Shape`, and a `Square` is a `Rectangle`.
 
 Define a Shape class with the following:
 - `num_sides`: set during instantiation, read-only.
-- `side_length`: set during instantiation, readable and writable.
+- `side1_length`: set during instantiation, readable and writable.
+- `side2_length`: set during instantiation, readable and writable.
 - `color`: NOT set during instantiation, readable and writable.
 - `Shape.new(num_sides, side_length)` should create a shape.
 - `calculate_area` method which calculates area of a rectangle or square class.
